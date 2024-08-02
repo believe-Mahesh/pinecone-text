@@ -4,6 +4,7 @@ from typing import List
 
 from nltk import word_tokenize, SnowballStemmer
 from nltk.corpus import stopwords
+nltk.data.path.append('./nltk_data')
 
 
 class BM25Tokenizer:
